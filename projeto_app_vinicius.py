@@ -35,20 +35,45 @@ while True:
         # Deve selecionar os lanches e acompanhamentos.
         selecione_os_acompanhamentos = input('\nEscolha o segundo acompanhamento\n 1. Nuggets\n 2. Batata extra\n 3. Molho Barbecue\n 4. Não quero acompanhamentos\nSelecione um acompanhamento: \n')
         print('\n Finalizando pedido...\n')
-        break
 
-    delivery =print('\nComplete as informações:')
+        print('\n ==Delivery== \n')
 
-    if escolha_menu == '2' :
+        entrega = input('\nDigite seu endereço:\n')
+        print('1. Casa')
+        print('2. Apartamento')       
+        Casa_ou_apartamento = input('\nCasa ou Ap:')
+
+    elif Casa_ou_apartamento == '1': input('Numero da residencia:')
+
+    elif Casa_ou_apartamento == '2' : input('Numero do apartamento:')
+    input ('\nBloco do condominio:\n')
+
+    
+    
+
+
         
-       #entrega = input('\nDigite seu endereço:\n')
-       #Casa_ou_apartamento = print('\n 1. Casa\n')
-       print('1 Casa')
-       print('2 Apartamento')
 
-    if delivery == 'Casa' :
 
-     input('\nDigite seu endereço')
+   # elif escolha_menu == '2' :
+        
+      # entrega = input('\nDigite seu endereço:\n')
+      # print('1. Casa')
+       #print('2. Apartamento')       
+      # Casa_ou_apartamento = input('\nCasa ou Ap:')
+
+    #elif Casa_ou_apartamento == '1': input('Numero da residencia:')
+
+   # elif Casa_ou_apartamento == '2' : input('Numero do apartamento:')
+    #input ('\nBloco do condominio:\n')
+
+
+    
+
+    
+        
+        
+
 
         
 
